@@ -166,10 +166,7 @@ int main(void)
 	 		  break;
 
 	 	  case RECEIVE:
-	 		 if(HAL_OK != HAL_UART_Transmit_IT(&huart4, &TxBuffer, 1))
-	 		 {
-	 			 Error_Handler();
-	 		 }
+
 	 		if(HAL_OK != HAL_UART_Receive(&huart5, &RxBuffer, 1, HAL_MAX_DELAY))
 	 		{
 	 			Error_Handler();
