@@ -1,6 +1,6 @@
 # ECPP Auto UART Baudrate Detector
 
-This repository contains the code for an automatic UART baud rate detection algorithm implemented on an STM32 microcontroller as part of my embedded competitive programming (ECPP) preparation.
+This repository contains the code for an automatic UART baud rate detection algorithm implemented on an STM32 microcontroller as part of our embedded competitive programming (ECPP) preparation.
 
 ## Problem Context
 
